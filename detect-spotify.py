@@ -9,7 +9,7 @@ def get_username():
     	return os.getlogin()
 
 
-path = f'C:/Users/{get_username()}/AppData/Roaming/Spotify/Spotify.exe'  # Locate the path of spotify.exe on your computer, It should look like : 'C:/Users/<youname>/AppData/Roaming/Spotify/Spotify.exe'
+path = f'C:/Users/{get_username()}/AppData/Roaming/Spotify/Spotify.exe' 
 print(f"Fetched Path: {path}")
 
 # Things you have to change
