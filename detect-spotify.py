@@ -8,11 +8,11 @@ import time
 def get_username():
     	return os.getlogin()
 
-# Things you have to change
-
 
 path = f'C:/Users/{get_username()}/AppData/Roaming/Spotify/Spotify.exe'  # Locate the path of spotify.exe on your computer, It should look like : 'C:/Users/<youname>/AppData/Roaming/Spotify/Spotify.exe'
 print(f"Fetched Path: {path}")
+
+# Things you have to change
 SPOTIFY_ACCESS_TOKEN = ''  # I have a link on github, click that > Get token > check the topmost box > Copy paste that token here
 
 # ----------------------------------------
